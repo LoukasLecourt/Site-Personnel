@@ -1,0 +1,157 @@
+body {
+    background-color: whitesmoke;
+}
+.menu {
+    position: absolute;
+    z-index: 2000;
+    top: 50px;
+    left: 90px;
+    width: 1000px;
+    height: 2000px;
+}
+.menu image {
+    width: 100%;
+    padding-left: 90px;
+}
+.navbar {
+    position: absolute;
+    top: 450px;
+    left: -90px;
+    background: none;
+    width: 500px;
+    height: 200px;
+    overflow: hidden;
+    color: white;
+    transform: translateY(-100%);
+    transition: transform 0.2s ease;
+    opacity: 0%;
+}
+.navbar a {
+    font-size: 60px;
+}
+.showNav {
+    transform: translateY(0);
+    opacity: 100%;
+}
+img {
+    display: block;
+    width: 25%;
+}
+section {
+    display: block;
+    padding: 25px;
+    margin: 240px 0;
+    background-color: whitesmoke;
+}
+br {
+    content: "";
+    display: block;
+    margin-bottom: 4px;
+}
+#text {
+    display: block;
+    margin-top: 10px;
+}
+header {
+    position: absolute;
+    top: 0;
+    width: 2480px;
+    box-sizing: border-box;
+    z-index: 1000;
+    background-color: grey;
+    height: 450px;
+}
+header .text {
+    top: 300px;
+    margin-top: 150px;
+    font-size: 75px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+.a .b {
+    display: block;
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    font-size: xx-large;
+}
+footer {
+    height: 300px;
+    display: flex;
+    position: absolute;
+    top: 1700px;
+    width: 2480px;
+    box-sizing: border-box;
+    background-color: grey;
+}
+footer .adress {
+    flex: 1;
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    font-size: 35px;
+    padding-left: 320px;
+    padding-top: 100px;
+}
+footer .tel {
+    flex: 1;
+    text-align: center;
+    padding-top: 100px;
+}
+footer a {
+    color: red;
+    text-decoration: underline;
+    font-size: 35px;
+    padding-left: 320px;
+}
+footer .email {
+    flex: 1;
+    text-align: center;
+    padding-top: 100px;
+}
+/* Tablet Verticale 
+@media only screen and (min-width:1024px){
+    section {
+    margin: 225px 0;
+    }
+    #text {
+        margin-top: 50px;
+    }
+    br {
+        content: "";
+        display: block;
+        margin-bottom: 10px;
+    }
+    header {
+    height: 225px;
+    }
+    header h1 {
+        font-size: xx-large;
+    }
+    header p {
+        font-size: x-large;
+    }
+    header img {
+        width: 18%;
+        margin-right: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #contact {
+        font-size: large;
+    }
+    #pro {
+        margin-top: -225px;
+        font-size: medium;
+    }
+    #pro .recherches {
+        margin-top: -20px;
+    }
+    #pro .recherches .recherche {
+        font-size: medium;
+    }
+    #pro .recherches .competences {
+        font-size: medium;
+    }
+}*/

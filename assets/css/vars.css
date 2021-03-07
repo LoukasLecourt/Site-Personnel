@@ -1,0 +1,20 @@
+:root {
+    --default-margin: 40px;
+    --default-font-size: 16px;
+    --default-line-height: 22px;
+    --color-blue: #2d96c8;
+    --color-red: #ef5466;
+    --color-grey: #a0a0a0;
+    --color-grey2: #f9f9f9;
+    --color-grey3: #eaeaea;
+    --color-grey4: #90909d;
+    --color-grey5: #a5a5a5;
+    --color-grey6: #f0f0f0;
+    --color-grey7: #cccccc;
+    --color-grey8: #32323d;
+}
+@media only screen and (min-width: 1280px) {
+    :root {
+        --default-margin: 125px;
+    }
+}

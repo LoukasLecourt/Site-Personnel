@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/styles_2.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    </head>
+    <body>
+        <header>
+            <div class="menu">
+                <img src="assets/images/photo_identite.jpg" alt="">
+                <ul class="navbar">
+                    <li><a class="menulink" href="index.html">Accueil</a></li>
+                    <li><a class="menulink" href="contact.html">Questionnaire</a></li>
+                    <li><a class="menulink" href="gallery.html">Gallerie</a></li>
+                </ul>
+            </div>
+            <div id="text">
+                <h1 class="text">Loukas Lecourt</h1>
+            </div>
+        </header>
+
+        <section class="qcm">
+            <div id="wrapper">
+                <h1>J'ai des questions !</h1>
+                <p class="h1">Pouvez-vous y répondre ?</p>
+                <br class="space" />
+                
+                <form id="quiz">
+                <h2>Vous etes :</h2><br class="small" />
+                <label><input type="radio" name="q1" value="c1">
+                    <p>Homme</p>
+                </label><br />
+                <label><input type="radio" name="q1" value="c2">
+                    <p>Femme</p>
+                </label><br />
+            
+                <h2>Quel ages avez-vous ?</h2><br class="small" />
+                <label><input type="radio" name="q2" value="c1">
+                    <p>0-15 ans</p>
+                </label><br />
+                <label><input type="radio" name="q2" value="c2">
+                    <p>16-25 ans</p>
+                </label><br />
+                <label><input type="radio" name="q2" value="c3">
+                    <p>26-45 ans</p>
+                </label><br />
+                <label><input type="radio" name="q2" value="c4">
+                    <p>46 ans et plus</p>
+                </label><br />
+                
+                <h2>Comment m'avez-vous découvert ?</h2><br class="small" />
+                <label><input class="q" type="text" name="q3" value="">
+                </label><br />
+                
+                <h2>Pourquoi vous intéressez-vous à la programmation ?</h2><br class="small" />
+                <label><input class="q" type="text" name="q4" value="">
+                </label><br />
+                
+                <button type="submit" id="submit" onclick="tabulateAnswers()">Remettre vos réponces</button>
+                <button type="reset" id="reset" onclick="resetAnswer()">Recommencer</button>
+                </form>
+                <div id="answer">Merci d'avoir répondu !</div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <nav>
+                <h2 class="adress">21 Rue des Vosges, <br>
+                27500 Pont Audemer</h2>
+            </nav>
+            <nav>
+                <h2 class="tel">
+                    <a href="telto:0673711474">06 73 71 14 74</a>
+                </h2>
+            </nav>
+            <nav>
+                <h2 class="email">
+                    <a href="mailto:contact.pro.loukas@gmail.com">contact.pro.loukas@gmail.com</a>
+                </h2>
+            </nav>
+        </footer>
+        <script src="assets/js/scripts/main.js"></script>
+    </body>
+</html>
