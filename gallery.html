@@ -5,11 +5,12 @@
         <link rel="stylesheet" type="text/css" media="screen" href="assets/css/styles_3.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <link rel="stylesheet" href="assets/plugin/splide-2.4.21/dist/css/splide.min.css">
     </head>
+
     <body>
         <header>
             <div class="menu">
-                <img class="image" src="assets/images/photo_identite.jpg" alt="">
                 <ul class="navbar">
                     <li><a class="menulink" href="index.html">Accueil</a></li>
                     <li><a class="menulink" href="contact.html">Questionnaire</a></li>
@@ -22,10 +23,32 @@
         </header>
 
         <section class="gal">
-            <a data-fancybox="gallery" data-caption="gallery" href="assets/images/htmlcss.jpg"><img src="assets/images/htmlcss.jpg"></a>
-            <a data-fancybox="gallery" href="assets/images/mc.jpg"><img src="assets/images/mc.jpg"></a>
-            <a data-fancybox="gallery" href="assets/images/wordpress.png"><img src="assets/images/wordpress.png"></a>
-            <a data-fancybox="gallery" href="assets/images/java.png"><img src="assets/images/java.png"></a>
+            <div class="splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <figure>
+                                <a class="d-block mb-4" data-fancybox="images" href="assets/images/htmlcss.jpg" data-width="1500" data-height="1000">
+                                    <img class="img-fluid1" src="assets/images/htmlcss.jpg" width="300" height="200" />
+                                </a>
+                                <figcaption>
+                                    <h6 class="img-fluid-text1">CV et Site personnelle fait en Html5 Css3 et site personnelle fait avec du Javascript</h6>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="splide__slide">
+                            <figure>
+                                <a class="d-block mb-4" data-fancybox="images" href="assets/images/mc.jpg" data-width="1400" data-height="1000">
+                                    <img class="img-fluid2" src="assets/images/mc.jpg" width="300" height="200"/>
+                                </a>
+                                <figcaption>
+                                    <h6 class="img-fluid-text2">Plugin et Texturepack pour le jeux vidéo Minecraft</h6>
+                                </figcaption>
+                            </figure>
+                    </li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
         <footer id="footer">
@@ -47,5 +70,18 @@
         <script src="assets/js/scripts/main.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+        <script src="assets/plugin/splide-2.4.21/dist/js/splide.min.js"></script>
+        <script>
+            new Splide( '.splide', {
+                type   : 'loop',
+                padding: {
+                    right: '0',
+                    left : '0',
+                },
+                perPage : 1,
+                width: '800px',
+                height: '600px',
+            } ).mount();
+        </script>
     </body>
 </html>
