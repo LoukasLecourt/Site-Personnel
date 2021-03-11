@@ -1,0 +1,112 @@
+body {
+    background-color: whitesmoke;
+}
+.menu {
+    position: absolute;
+    z-index: 2000;
+    top: 50px;
+    left: 90px;
+    width: 250px;
+    height: 500px;
+    background-image: url(../images/photo_identite.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.navbar {
+    position: absolute;
+    top: -30px;
+    left: 275px;
+    background: none;
+    width: 500px;
+    height: 200px;
+    overflow: hidden;
+    color: white;
+    transform: translateY(-100%);
+    transition: transform 0.2s ease;
+    opacity: 0%;
+}
+.navbar a {
+    font-size: 45px;
+}
+.showNav {
+    transform: translateY(13%);
+    opacity: 100%;
+}
+img {
+    display: block;
+    width: 25%;
+}
+section {
+    display: block;
+    padding: 25px;
+    margin: 240px 0;
+    background-color: whitesmoke;
+}
+br {
+    content: "";
+    display: block;
+    margin-bottom: 4px;
+}
+#text {
+    display: block;
+    margin-top: 10px;
+}
+header {
+    position: absolute;
+    top: 0;
+    width: 2310px;
+    box-sizing: border-box;
+    z-index: 1000;
+    background-color: grey;
+    height: 450px;
+}
+header .text {
+    top: 300px;
+    margin-top: 150px;
+    font-size: 75px;
+    font-weight: bold;
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+footer {
+    height: 400px;
+    display: flex;
+    position: absolute;
+    top: 1700px;
+    width: 2316px;
+    box-sizing: border-box;
+    background-color: grey;
+}
+footer .contact {
+    text-align: left;
+    color: whitesmoke;
+    text-decoration: bold;
+    font-size: 35px;
+    padding-left: 250px;
+    padding-top: 55px;
+}
+footer .adress {
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: underline;
+    font-size: 30px;
+    padding-left: 250px;
+    padding-top: 20px;
+}
+footer .tel {
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 20px;
+}
+footer a {
+    color: whitesmoke;
+    text-decoration: underline;
+    font-size: 30px;
+    padding-left: 250px;
+}
+footer .email {
+    text-align: center;
+    padding-top: 20px;
+}
