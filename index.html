@@ -3,37 +3,80 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" media="screen" href="assets/css/styles.css">
-        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/styles_1.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/index.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     </head>
     <body>
         <header>
-            <div class="menu">
+            <nav class="menu">
                 <ul class="navbar">
                     <li><a class="menulink" href="index.html">Accueil</a></li>
                     <li><a class="menulink" href="contact.html">Questionnaire</a></li>
                     <li><a class="menulink" href="gallery.html">Gallerie</a></li>
+                    <li><a class="menulink" href="cv.html">CV</a></li>
                 </ul>
-            </div>
+            </nav>
             <div id="text">
-                <h1 class="text">Loukas Lecourt</h1>
+                <h1 class="text">Loukas Lecourt</h1> <br class="saut"/>
+                <h2 class="info">La navigation sur ce site, se fait à l'aide du menu. <br />
+                    Pour y accéder, veuillez cliquer sur ma tete.</h2>
             </div>
         </header>
 
-        <section class="a">
-            <h1 class="b">La navigation sur ce site, se fait à l'aide du menu. Pour y acceder, veuillez cliqué sur ma tete.</h1>
+        <section class="presentation">
+            <h1 class="qui">Qui suis-je ?</h1>
+            <br class="brpresentation"/>
+            <p class="quirep">Je me nomme Loukas Lecourt, née le 19 Novembre 2002, j’ai <br />
+                actuellement le bac de série Scientifique spécialité Physique <br />
+                Chimie. Je suis autonome, bien organisé, je préfère travailler <br />
+                seul bien qu’appréciant le travail de groupe.</p>
+        </section>
+        <section class="update">
+            <h1>Update du site depuis sa création :</h1> <br />
+            <ul class="version">
+                <li class="v1">
+                    <h2>Premiere version du site</h2>
+                    <p>Création du site, création de la page 'index.html' (Accueil), 'gallery.html' (Gallerie) <br />
+                        ainsi que 'contact.html' (Questionnaire) avec leurs pages css respectives. <br />
+                        Création du menu, et donc du fichier 'main.js' ainsi que le header, le footer et la forme du questionnaire. 
+                    </p>
+                </li>
+                <li class="v2">
+                    <h2>Seconde version du site</h2>
+                    <p>Résolution des deux probleme majeur sur le site, soit reduction de la clic-box du menu <br />
+                        ainsi que image du menu qui s'affiche. <br />
+                        Ajout de deux plugin pour la Gallerie : 'Fancybox' et 'Splide'.
+                    </p>
+                </li>
+                <li class="v3">
+                    <h2>Version actuelle (Troisieme version)</h2>
+                    <p>Optimisation du code css, et ajout du contenu sur la page d'accueil.
+                    </p>
+                </li>
+            </ul>
         </section>
 
-        <footer id="footer">
+        <footer>
             <nav>
                 <ul>
-                    <h2 class="contact">Contact :</h2>
-                    <li><h2 class="adress">21 Rue des Vosges, <br>
-                        27500 Pont Audemer</h2></li>
-                    <li><h2 class="tel">
-                        <a href="telto:0673711474">06 73 71 14 74</a></h2></li>
-                    <li><h2 class="email">
-                        <a href="mailto:contact.pro.loukas@gmail.com">contact.pro.loukas@gmail.com</a></h2></li>
+                    <li>
+                        <ul class="contacts">
+                            <h2 class="contact">Contact :</h2>
+                            <li><h2 class="adress">21 Rue des Vosges, <br>
+                                27500 Pont Audemer</h2></li>
+                            <li><h2 class="tel">
+                                <a href="telto:0673711474">06 73 71 14 74</a></h2></li>
+                            <li><h2 class="email">
+                                <a href="mailto:contact.pro.loukas@gmail.com">contact.pro.loukas@gmail.com</a></h2></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="reseaux">
+                            <h2 class="reseau">Réseau sociaux :</h2>
+                            <li><h2 class="linkedin">Linkedin</h2></li>
+                            <li><h2 class="github">GitHub</h2></li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
         </footer>

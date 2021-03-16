@@ -3,7 +3,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" media="screen" href="assets/css/styles.css">
-        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/styles_3.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/gallery.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
         <link rel="stylesheet" href="assets/plugin/splide-2.4.21/dist/css/splide.min.css">
@@ -11,15 +11,18 @@
 
     <body>
         <header>
-            <div class="menu">
+            <nav class="menu">
                 <ul class="navbar">
                     <li><a class="menulink" href="index.html">Accueil</a></li>
                     <li><a class="menulink" href="contact.html">Questionnaire</a></li>
                     <li><a class="menulink" href="gallery.html">Gallerie</a></li>
+                    <li><a class="menulink" href="cv.html">CV</a></li>
                 </ul>
-            </div>
+            </nav>
             <div id="text">
-                <h1 class="text">Loukas Lecourt</h1>
+                <h1 class="text">Loukas Lecourt</h1> <br class="saut"/>
+                <h2 class="info">La navigation sur ce site, se fait à l'aide du menu. <br />
+                    Pour y accéder, veuillez cliquer sur ma tete.</h2>
             </div>
         </header>
 
@@ -31,10 +34,9 @@
                             <figure>
                                 <a class="d-block mb-4" data-fancybox="images" href="assets/images/htmlcss.jpg" data-width="1500" data-height="1000">
                                     <img class="img-fluid1" src="assets/images/htmlcss.jpg" width="300" height="200" />
+                                
                                 </a>
-                                <figcaption>
-                                    <h6 class="img-fluid-text1">CV et Site personnelle fait en Html5 Css3 et site personnelle fait avec du Javascript</h6>
-                                </figcaption>
+                                <h6 class="img-fluid-text1">CV et Site personnelle fait en Html5 Css3 et site personnelle fait avec du Javascript</h6>
                             </figure>
                         </li>
                         <li class="splide__slide">
@@ -46,22 +48,37 @@
                                     <h6 class="img-fluid-text2">Plugin et Texturepack pour le jeux vidéo Minecraft</h6>
                                 </figcaption>
                             </figure>
-                    </li>
+                        </li>
                     </ul>
                 </div>
             </div>
         </section>
-
-        <footer id="footer">
+<figcaption>
+                                    <h6>Projet fait en Html, Css et Javascript</h6>
+                                    <a href="assets/projets/cv">Mon CV</a>
+                                    <a href="assets/projets/site">Mon site sur lequel vous etes actuellement</a>
+                                </figcaption>
+        <footer>
             <nav>
                 <ul>
-                    <h2 class="contact">Contact :</h2>
-                    <li><h2 class="adress">21 Rue des Vosges, <br>
-                        27500 Pont Audemer</h2></li>
-                    <li><h2 class="tel">
-                        <a href="telto:0673711474">06 73 71 14 74</a></h2></li>
-                    <li><h2 class="email">
-                        <a href="mailto:contact.pro.loukas@gmail.com">contact.pro.loukas@gmail.com</a></h2></li>
+                    <li>
+                        <ul class="contacts">
+                            <h2 class="contact">Contact :</h2>
+                            <li><h2 class="adress">21 Rue des Vosges, <br>
+                                27500 Pont Audemer</h2></li>
+                            <li><h2 class="tel">
+                                <a href="telto:0673711474">06 73 71 14 74</a></h2></li>
+                            <li><h2 class="email">
+                                <a href="mailto:contact.pro.loukas@gmail.com">contact.pro.loukas@gmail.com</a></h2></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="reseaux">
+                            <h2 class="reseau">Réseau sociaux :</h2>
+                            <li><h2 class="linkedin">Linkedin</h2></li>
+                            <li><h2 class="github">GitHub</h2></li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
         </footer>
@@ -73,12 +90,12 @@
             new Splide( '.splide', {
                 type   : 'loop',
                 padding: {
-                    right: '0',
-                    left : '0',
+                    right: '0px',
+                    left : '0px',
                 },
                 perPage : 1,
-                width: '800px',
-                height: '600px',
+                width: '2000px',
+                height: '1000px',
             } ).mount();
         </script>
     </body>

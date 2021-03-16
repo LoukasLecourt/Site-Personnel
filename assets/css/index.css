@@ -1,10 +1,53 @@
-.a .b {
+.presentation {
     display: block;
     position: absolute;
-    top: 500px;
+    top: 300px;
     left: 300px;
-    font-size: xx-large;
+}
+.presentation .qui {
+    color: tomato;
+    font-size: 60px;
+    text-align: center;
+}
+.presentation .quirep {
+    color: teal;
+    font-size: 50px;
+    text-align: center;
+}
+.presentation .brpresentation {
+    content: "";
+    display: block;
+    margin-bottom: 30px;
+
+}
+
+.update {
+    display: block;
+    position: absolute;
+    top: 800px;
+}
+.update h1 {
+    color: green;
+    font-size: 60px;
+    text-align: left;
+}
+.update .version .v1 {
     color: black;
+    font-size: 50px;
+    text-align: center;
+}
+.update .version .v2 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+.update .version .v3 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+footer {
+    top: 2000px;
 }
 /* Tablet Verticale 
 @media only screen and (min-width:1024px){

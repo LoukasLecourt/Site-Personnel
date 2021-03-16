@@ -1,27 +1,33 @@
 .gal {
     display: block;
     position: absolute;
-    top: 350px;
+    top: 200px;
+    width: 1000px;
+    height: 1000px;
 }
 .gal .splide {
     display: block;
     position: absolute;
-    top: 600px;
+    top: 100px;
     left: 175px;
-    width: 1000px;
-    height: 450px;
+    width: 2000px;
+    height: 1000px;
 }
 .gal .splide img {
     display: block;
     position: absolute;
-    left: 80px;
-    top: -10px;
+    left: -0px;
+    width: 2000px;
+    height: 1000px;
+    top: 0px;
 }
 .gal .splide .img-fluid-text1 {
     display: block;
     position: absolute;
-    top: 400px;
-    left: 80px;
+    top: 930px;
+    left: 300px;
+    color: black;
+    font-size: 40px;
 }
 .gal .img-fluid1 {
     position: absolute;
