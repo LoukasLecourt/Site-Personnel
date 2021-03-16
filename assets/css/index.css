@@ -1,53 +1,125 @@
 .presentation {
     display: block;
     position: absolute;
-    top: 300px;
-    left: 300px;
+    top: 50px;
+    left: 150px;
+}
+.quimg {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    width: 400px;
+    height: 400px;
+}
+.presentation .question {
+    display: block;
+    position: relative;
+    top: 400px;
+}
+.presentation .que {
+    display: block;
+    position: relative;
+    top: 450px;
+}
+.presentation .comment {
+    display: block;
+    position: relative;
+    top: 500px;
+}
+.presentation .comment a {
+    color: blue;
+}
+.presentation .pourquoi {
+    display: block;
+    position: relative;
+    top: 550px;
 }
 .presentation .qui {
-    color: tomato;
-    font-size: 60px;
+    color: black;
+    font-size: 25px;
     text-align: center;
 }
 .presentation .quirep {
-    color: teal;
-    font-size: 50px;
+    color: #161b22;
+    font-size: 20px;
     text-align: center;
 }
 .presentation .brpresentation {
     content: "";
     display: block;
-    margin-bottom: 30px;
-
+    margin-bottom: 15px;
 }
 
 .update {
     display: block;
     position: absolute;
-    top: 800px;
+    top: 1150px;
+    left: 280px;
+}
+.brv {
+    content: "";
+    display: block;
+    margin-bottom: 20px;
 }
 .update h1 {
-    color: green;
-    font-size: 60px;
+    color: orangered;
+    font-size: 30px;
     text-align: left;
+    margin-left: -150px;
+    margin-bottom: 30px;
+}
+.update .version h2 {
+    color: black;
 }
 .update .version .v1 {
-    color: black;
-    font-size: 50px;
+    position: relative;
+    color: #161b22;
+    font-size: 20px;
     text-align: center;
 }
 .update .version .v2 {
-    color: black;
-    font-size: 50px;
+    position: relative;
+    color: #161b22;
+    font-size: 20px;
     text-align: center;
 }
 .update .version .v3 {
-    color: black;
-    font-size: 50px;
+    position: relative;
+    color: #161b22;
+    font-size: 20px;
     text-align: center;
 }
+.update .version .v4 {
+    position: relative;
+    color: #161b22;
+    font-size: 20px;
+    text-align: center;
+}
+.update h2, a {
+    color: black;
+    font-size: 25px;
+}
+.update a {
+    color: blue;
+}
+.update .git {
+    text-align: left;
+    margin-left: -150px;
+    margin-bottom: 30px;
+}
+.update .linkgit {
+    color: black;
+    font-size: 15px;
+    text-align: left;
+}
+.big {
+    content: "";
+    display: block;
+    margin-bottom: 40px;
+}
 footer {
-    top: 2000px;
+    top: 2100px;
 }
 /* Tablet Verticale 
 @media only screen and (min-width:1024px){

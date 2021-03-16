@@ -4,10 +4,10 @@ body {
 .menu {
     position: absolute;
     z-index: 2000;
-    top: 50px;
+    top: 30px;
     left: 90px;
-    width: 250px;
-    height: 500px;
+    width: 120px;
+    height: 175px;
     background-image: url(../images/photo_identite.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -15,9 +15,9 @@ body {
 .navbar {
     position: absolute;
     top: -30px;
-    left: 275px;
+    left: 130px;
     background: none;
-    width: 500px;
+    width: 200px;
     height: 200px;
     overflow: hidden;
     color: white;
@@ -26,7 +26,7 @@ body {
     opacity: 0%;
 }
 .navbar a {
-    font-size: 45px;
+    font-size: 25px;
 }
 .showNav {
     transform: translateY(13%);
@@ -49,43 +49,40 @@ br {
 }
 #text {
     display: block;
-    margin-top: 10px;
 }
 header {
     position: absolute;
     top: 0;
-    width: 2310px;
+    width: 1544px;
     box-sizing: border-box;
     z-index: 1000;
     background-color: grey;
-    height: 450px;
+    height: 225px;
 }
 header #text .text {
-    top: 300px;
-    margin-top: 100px;
-    font-size: 75px;
+    margin-top: 50px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
     color: whitesmoke;
 }
 header #text .info {
-    top: 400px;
-    font-size: 40px;
+    font-size: 25px;
     color: whitesmoke;
     text-align: center;
 }
 header #text .saut {
     content: "";
     display: block;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 
 footer {
-    height: 400px;
+    height: 250px;
     position: absolute;
     top: 1700px;
-    width: 2316px;
+    width: 1544px;
     box-sizing: border-box;
     background-color: grey;
 }
@@ -102,15 +99,15 @@ footer .contact {
     text-align: left;
     color: whitesmoke;
     text-decoration: bold;
-    font-size: 35px;
+    font-size: 30px;
     padding-left: 250px;
-    padding-top: 55px;
+    padding-top: 35px;
 }
 footer .adress {
     text-align: center;
     color: whitesmoke;
     text-decoration: underline;
-    font-size: 30px;
+    font-size: 20px;
     padding-left: 250px;
     padding-top: 20px;
 }
@@ -122,7 +119,7 @@ footer .tel {
 footer a {
     color: whitesmoke;
     text-decoration: underline;
-    font-size: 30px;
+    font-size: 20px;
     padding-left: 250px;
 }
 footer .email {
@@ -133,15 +130,15 @@ footer .reseau {
     text-align: left;
     color: whitesmoke;
     text-decoration: bold;
-    font-size: 35px;
+    font-size: 30px;
     padding-left: 150px;
-    padding-top: 55px;
+    padding-top: 35px;
 }
 footer .linkedin {
     text-align: center;
     color: whitesmoke;
     text-decoration: underline;
-    font-size: 30px;
+    font-size: 20px;
     padding-left: 150px;
     padding-top: 20px;
 }
@@ -149,7 +146,7 @@ footer .github {
     text-align: center;
     color: whitesmoke;
     text-decoration: underline;
-    font-size: 30px;
+    font-size: 20px;
     padding-left: 150px;
     padding-top: 20px;
 }
