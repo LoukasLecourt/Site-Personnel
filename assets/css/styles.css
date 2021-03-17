@@ -100,7 +100,7 @@ footer .contact {
     color: whitesmoke;
     text-decoration: bold;
     font-size: 30px;
-    padding-left: 250px;
+    padding-left: 200px;
     padding-top: 35px;
 }
 footer .adress {
@@ -108,7 +108,7 @@ footer .adress {
     color: whitesmoke;
     text-decoration: underline;
     font-size: 20px;
-    padding-left: 250px;
+    padding-left: 200px;
     padding-top: 20px;
 }
 footer .tel {
@@ -120,7 +120,7 @@ footer a {
     color: whitesmoke;
     text-decoration: underline;
     font-size: 20px;
-    padding-left: 250px;
+    padding-left: 200px;
 }
 footer .email {
     text-align: center;
@@ -131,7 +131,7 @@ footer .reseau {
     color: whitesmoke;
     text-decoration: bold;
     font-size: 30px;
-    padding-left: 150px;
+    padding-left: 100px;
     padding-top: 35px;
 }
 footer .linkedin {
@@ -139,7 +139,7 @@ footer .linkedin {
     color: whitesmoke;
     text-decoration: underline;
     font-size: 20px;
-    padding-left: 150px;
+    padding-left: 100px;
     padding-top: 20px;
 }
 footer .github {
@@ -147,6 +147,25 @@ footer .github {
     color: whitesmoke;
     text-decoration: underline;
     font-size: 20px;
-    padding-left: 150px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+footer .downloads {
+    display: block;
+}
+footer .download {
+    text-align: left;
+    color: whitesmoke;
+    text-decoration: bold;
+    font-size: 30px;
+    padding-left: 100px;
+    padding-top: 35px;
+}
+footer .cv {
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: underline;
+    font-size: 20px;
+    padding-left: 100px;
     padding-top: 20px;
 }

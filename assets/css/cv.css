@@ -4,10 +4,10 @@ body {
 .menu {
     position: absolute;
     z-index: 2000;
-    top: 50px;
-    left: 2500px;
-    width: 12%;
-    height: 500px;
+    top: 25px;
+    left: 1300px;
+    width: 180px;
+    height: 250px;
     background-image: url(../images/photo_identite.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -17,20 +17,26 @@ body {
     top: -30px;
     left: -285px;
     background: none;
-    width: 500px;
-    height: 200px;
+    width: 280px;
+    height: 210px;
     overflow: hidden;
     color: white;
     transform: translateY(-100%);
-    transition: transform 0.2s ease;
+    transition: transform 0s linear;
     opacity: 0%;
+    margin-top: 10px;
 }
 .navbar a {
-    font-size: 45px;
+    margin-left: 105px;
+    font-size: 25px;
 }
 .showNav {
-    transform: translateY(13%);
+    transform: translateY(15%);
     opacity: 100%;
+    background-color: grey;
+}
+.showDesc {
+    opacity: 0%;
 }
 img {
     display: block;
@@ -38,7 +44,7 @@ img {
 }
 .imgflo {
     float: left;
-    width: 20%;
+    width: 55px;
 }
 section {
     display: block;
@@ -52,17 +58,17 @@ br {
 .dates {
     content: "";
     display: block;
-    margin-top: 20px;
+    margin-top: 17px;
 }
 .nws {
     content: "";
     display: block;
-    margin-top: 10px;
+    margin-top: 6px;
 }
 .sto {
     content: "";
     display: block;
-    margin-top: 10px;
+    margin-top: 6px;
 }
 .espace {
     content: "";
@@ -73,172 +79,174 @@ header #text {
     display: block;
     position: absolute;
     margin-top: 40px;
-    left: 200px;
+    left: 50px;
 }
 header {
     position: absolute;
     top: 0;
-    width: 3020px;
+    width: 1544px;
     box-sizing: border-box;
     z-index: 1000;
     background-color: grey;
-    height: 500px;
+    height: 225px;
 }
 header #text .text {
+    display: block;
     top: 50px;
-    margin-top: 50px;
-    font-size: 100px;
+    margin-top: 10px;
+    font-size: 40px;
     font-weight: bold;
     text-align: center;
     color: black;
 }
-header #text .info {
-    font-size: 50px;
+header #text .desc {
+    font-size: 30px;
     text-align: center;
     font-weight: italic;
     color: black;
     margin-bottom: 3px;
+    opacity: 100%;
 }
 header #text .saut {
     content: "";
     display: block;
     margin-bottom: 50px;
 }
+header .header {
+    content: "";
+    display: block;
+    margin-bottom: 25px;
+}
+
 #pro .recherches{
     display: flex;
     box-sizing: border-box;
 }
 #pro .recherches .competences {
     flex: auto;
-    font-size: 45px;
+    font-size: 20px;
     text-align: center;
     display: block;
     position: absolute;
-    left: 2350px;
-    top: 800px;
+    left: 1200px;
+    top: 500px;
 }
 #pro .recherches .competences br {
     content: "";
     display: block;
-    margin-bottom: 160px;
+    margin-bottom: 55px;
 }
 .br {
     content: "";
     display: block;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
 }
 #pro .recherches .competences h3 {
-    font-size: 65px;
+    font-size: 25px;
 }
 #pro .recherches .competences h4 {
     color : black;
-    font-size: 50px;
+    font-size: 23px;
 }
 .formation .formations {
     display: block;
     position: absolute;
-    top: 850px;
+    top: 500px;
     left: 125px;
 }
 .formation .projets {
     display: block;
     position: absolute;
-    top: 1550px;
+    top: 925px;
     left: 125px;
 }
+.formation .projets .br {
+    content: "";
+    display: block;
+    margin-bottom: 45px;
+}
 .formation h3 {
-    font-size: 65px;
+    font-size: 25px;
 }
 .formation h4 {
-    font-size: 45px;
+    font-size: 23px;
     color: black;
 }
 .formation .spe{
-    font-size: 35px;
+    font-size: 18px;
 }
 .formation .date{
-    font-size: 28px;
+    font-size: 16px;
     font-style: italic;
 }
 .formation p{
     font-size: xx-large;
     font-style: italic;
 }
+.formation .projets .espace {
+    content: "";
+    display: block;
+    margin-bottom: 30px;
+}
 #end .fin {
     display: flex;
     position: absolute;
-    top: 2400px;
+    top: 1400px;
     left: 125px;
     box-sizing: border-box;
 }
 #end .fin .experience {
     flex: auto;
 }
+#end .fin .experience .br {
+    content: "";
+    display: block;
+    margin-bottom: 40px;
+}
+#end .fin .experience .espace {
+    content: "";
+    display: block;
+    margin-bottom: 35px;
+}
 #end .fin h3 {
-    font-size: 65px;
+    font-size: 25px;
 }
 #end .fin h4 {
-    font-size: 50px;
+    font-size: 24px;
     color: black;
 }
 #end .fin .experience .experiences p.date {
-    font-size: 35px;
+    font-size: 20px;
 }
 #end .fin .experience .experiences p.description {
-    font-size: 45px;
-}
-#end .fin .languages {
-    flex: auto;
-    text-align: center;
-    display: block;
-    position: absolute;
-    left: 2300px;
-    top: 900px;
-}
-#end .fin .languages br {
-    content: "";
-    display: block;
-    margin-bottom: 85px;
+    font-size: 21px;
 }
 
 #passion .pass .passion {
     flex: auto;
     display: block;
     position: absolute;
-    top: 2950px;
-    left: 120px;
+    top: 1750px;
+    left: 125px;
 }
 #passion .pass .passion h3 {
-    font-size: 65px;
+    font-size: 25px;
 }
 #passion .pass .passion h4 {
-    font-size: 50px;
+    font-size: 24px;
     color: black;
 }
 #passion .pass .passion br {
     content: "";
     display: block;
-    margin-bottom: 55px;
-}
-#baisser {
-    flex: auto;
-    display: block;
-    position: absolute;
-    top: 4200px;
-    left: 120px;
-}
-#baisser h2 {
-    color: #8B0000;
-    font-size: 65px;
-    opacity: 0%;
+    margin-bottom: 30px;
 }
 
 footer {
-    height: 1000px;
     display: flex;
     position: absolute;
-    top: 500px;
-    width: 3020px;
+    top: 200px;
+    width: 1544px;
     box-sizing: border-box;
     height: 200px;
     background-color: grey;
@@ -247,32 +255,31 @@ footer .adress {
     flex: 1;
     color: whitesmoke;
     text-decoration: underline;
-    font-size: 40px;
-    padding-left: 100px;
-    padding-top: 75px;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-top: 125px;
 }
 footer .tel {
     flex: 1;
-    padding-top: 75px;
+    padding-top: 125px;
 }
 footer a {
     color: whitesmoke;
     text-decoration: underline;
-    font-size: 40px;
-    padding-left: 175px;
+    font-size: 20px;
+    padding-left: 80px;
 }
 footer .email {
     flex: 1;
-    padding-top: 75px;
+    padding-top: 125px;
 }
 footer .linkedin {
     flex: 1;
-    padding-top: 75px;
+    padding-top: 125px;
 }
 footer .github {
     flex: 1;
-    padding-left: -100px;
-    padding-top: 75px;
+    padding-top: 125px;
 }
 /* Tablet Verticale 
 @media only screen and (min-width:1024px){

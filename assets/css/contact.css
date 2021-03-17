@@ -1,28 +1,26 @@
-.qcm {
-    padding-top: 500px;
-}
+
 #wrapper {
     display: block;
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
     background: grey;
     padding: 15px 25px;
     border-radius: 10px;
-    top: 1000px;
+    top: 600px;
 }
 #wrapper h1 {
-    font-size: 50px;
+    font-size: 40px;
     color: red;
 }
 #wrapper .h1 {
-    font-size: 35px;
+    font-size: 25px;
 }
 #wrapper h2 {
-    font-size: 30px;
-    color: orangered;
+    font-size: 20px;
+    color: whitesmoke;
 }
 #wrapper p {
-    font-size: 25px;
+    font-size: 15px;
 }
 #wrapper .space {
     content: "";
@@ -36,7 +34,8 @@
 }
 #wrapper .q {
     width: 1000px;
-    height: 50px;
+    height: 40px;
+    font-size: 20px;
 }
 #wrapper .small {
     content: "";
@@ -46,13 +45,13 @@
 label p {
     margin-top: -20px;
     margin-left: 30px;
-    font-size: 40px;
+    font-size: 30px;
 }
 input {
     margin: 20px 40px;
 }
 button {
-    font-size: 30px;
+    font-size: 20px;
     padding: 10px;
     margin: 20px 0;
     color: white;
@@ -69,9 +68,9 @@ button {
 #answer {
     border: 1px dashed #ccc;
     background: #eee;
-    padding: 10px;
+    padding: 0px;
     width: 1000px;
-    height: 50px;
-    font-size: 50px;
+    height: 40px;
+    font-size: 35px;
     text-align: center;
 }
