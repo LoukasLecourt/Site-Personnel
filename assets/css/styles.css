@@ -17,11 +17,11 @@ body {
 }
 .navbar {
     position: absolute;
-    top: -30px;
+    top: 10px;
     left: 0px;
-    background: none;
+    background-color: grey;
     width: 200px;
-    height: 200px;
+    height: 130px;
     overflow: hidden;
     color: white;
     transform: translateY(-100%);
@@ -95,6 +95,7 @@ footer {
     width: 100%;
     box-sizing: border-box;
     background-color: grey;
+    z-index: 1000;
 }
 footer .contacts {
     display: block;
@@ -228,8 +229,7 @@ footer .cv {
     /*Footer*/
 
     footer {
-        height: 400px;
-        top: 2000px;
+        height: 370px;
     }
     footer ul {
         display: block;
@@ -244,7 +244,7 @@ footer .cv {
     }
     footer .adress {
         font-size: 10px;
-        padding-top: 5%;
+        padding-top: 4%;
         padding-left: 0.2%;
     }
     footer .tel {
@@ -260,7 +260,7 @@ footer .cv {
     }
     footer .reseaux {
         padding-left: 15%;
-        padding-top: 10%;
+        padding-top: 5%;
     }
     footer .reseau {
         font-size: 15px;
@@ -279,7 +279,7 @@ footer .cv {
     }
     footer .downloads {
         padding-left: 15%;
-        padding-top: 10%;
+        padding-top: 5%;
     }
     footer .download {
         font-size: 15px;

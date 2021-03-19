@@ -1,31 +1,30 @@
 .presentation {
     display: block;
-    position: absolute;
-    top: 50px;
-    left: 10%;
+    position: relative;
+    top: 5%;
 }
 .quimg {
     display: block;
-    position: absolute;
+    position: relative;
     top: 5%;
-    left: 25%;
+    left: 30%;
     width: 40%;
     height: 75%;
 }
 .presentation .question {
     display: block;
     position: relative;
-    top: 400px;
+    top: 100%;
 }
 .presentation .que {
     display: block;
     position: relative;
-    top: 450px;
+    top: 100%;
 }
 .presentation .comment {
     display: block;
     position: relative;
-    top: 500px;
+    top: 100%;
 }
 .presentation .comment a {
     color: blue;
@@ -33,7 +32,7 @@
 .presentation .pourquoi {
     display: block;
     position: relative;
-    top: 550px;
+    top: 100%;
 }
 .presentation .qui {
     color: black;
@@ -50,18 +49,23 @@
     display: block;
     margin-bottom: 15px;
 }
+.presentation .brsepar {
+    content: "";
+    display: block;
+    margin-bottom: 35px;
+}
 
 .update {
     display: block;
     position: absolute;
     background: none;
-    top: 185%;
+    top: 190%;
     left: 18%;
 }
 .brv {
     content: "";
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 .update h1 {
     color: orangered;
@@ -97,6 +101,18 @@
     font-size: 20px;
     text-align: center;
 }
+.update .version .v5 {
+    position: relative;
+    color: #161b22;
+    font-size: 20px;
+    text-align: center;
+}
+.update .version .v6 {
+    position: relative;
+    color: #161b22;
+    font-size: 20px;
+    text-align: center;
+}
 .update h2, a {
     color: black;
     font-size: 25px;
@@ -107,7 +123,6 @@
 .update .git {
     text-align: left;
     margin-left: -20%;
-    margin-bottom: 30px;
 }
 .update .linkgit {
     color: black;
@@ -120,50 +135,110 @@
     margin-bottom: 40px;
 }
 footer {
-    top: 300%;
+    top: 330%;
 }
-/* Tablet Verticale 
-@media only screen and (min-width:1024px){
-    section {
-    margin: 225px 0;
+
+/*Responsive*/
+
+@media only screen and (max-width:1024px){
+    .presentation {
+        display: block;
+        left: 0%;
+    }    
+    .quimg {
+        top: -170px;
+        left: 31.5%;
+        height: 25%;
+        width: 50%;
     }
-    #text {
-        margin-top: 50px;
+    .presentation .question {
+        display: block;
+        position: absolute;
+        top: 5%;
     }
-    br {
+    .presentation .question .qui {
+        font-size: 15px;
+    }
+    .presentation .question .quirep {
+        font-size: 10px;
+    }
+    .presentation .que {
+        top: -60px;
+    }
+    .presentation .que .qui {
+        font-size: 15px;
+    }
+    .presentation .que .quirep {
+        font-size: 10px;
+    }
+    .presentation .comment {
+        top: -60px;
+    }
+    .presentation .comment .qui {
+        font-size: 15px;
+    }
+    .presentation .comment .quirep {
+        font-size: 10px;
+    }
+    .presentation .comment a {
+        font-size: 10px;
+    }
+    .presentation .pourquoi {
+        top: -60px;
+    }
+    .presentation .pourquoi .qui {
+        font-size: 15px;
+    }
+    .presentation .pourquoi .quirep {
+        font-size: 10px;
+    }
+
+    /*Update*/
+
+    .update {
+    top: 120%;
+    left: 18%;
+    }
+    .brv {
+    margin-bottom: 15px;
+    }
+    .update h1 {
+    color: orangered;
+    font-size: 15px;
+    margin-bottom: 15px;
+    }
+    .update .version .v1, v2{
+    font-size: 10px;
+    }
+    .update .version .v2{
+    font-size: 10px;
+    }
+    .update .version .v3{
+    font-size: 10px;
+    }
+    .update .version .v4{
+    font-size: 10px;
+    }
+    .update .version .v5{
+    font-size: 10px;
+    }
+    .update .version .v6{
+    font-size: 10px;
+    }
+    .update h2, a {
+        font-size: 12.5px;
+    }
+    .update .linkgit {
+    font-size: 8px;
+    }
+    .big {
         content: "";
         display: block;
-        margin-bottom: 10px;
+        margin-bottom: 50px;
     }
-    header {
-    height: 225px;
+    footer {
+        top: 235%;
     }
-    header h1 {
-        font-size: xx-large;
-    }
-    header p {
-        font-size: x-large;
-    }
-    header img {
-        width: 18%;
-        margin-right: 30px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    #contact {
-        font-size: large;
-    }
-    #pro {
-        margin-top: -225px;
-        font-size: medium;
-    }
-    #pro .recherches {
-        margin-top: -20px;
-    }
-    #pro .recherches .recherche {
-        font-size: medium;
-    }
-    #pro .recherches .competences {
-        font-size: medium;
-    }
-}*/
+}
+/*
+*/
