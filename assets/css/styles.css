@@ -5,11 +5,11 @@ body {
     position: absolute;
     z-index: 2000;
     top: 30px;
-    left: 90px;
-    width: 120px;
-    height: 175px;
+    left: 10%;
+    width: 10%;
+    height: 80%;
     background-image: url(../images/photo_identite.jpg);
-    background-size: 100%;
+    background-size: 80%;
     background-repeat: no-repeat;
 }
 .navbar {
@@ -53,7 +53,7 @@ br {
 header {
     position: absolute;
     top: 0;
-    width: 1544px;
+    width: 100%;
     box-sizing: border-box;
     z-index: 1000;
     background-color: grey;
@@ -82,15 +82,17 @@ footer {
     height: 250px;
     position: absolute;
     top: 1700px;
-    width: 1544px;
+    width: 100%;
     box-sizing: border-box;
     background-color: grey;
 }
 footer .contacts {
     display: block;
+    padding-left: 100px;
 }
 footer .reseaux {
     display: block;
+    padding-left: 25px;
 }
 footer ul {
     display: inline-flex;
@@ -100,7 +102,7 @@ footer .contact {
     color: whitesmoke;
     text-decoration: bold;
     font-size: 30px;
-    padding-left: 200px;
+    padding-left: 100px;
     padding-top: 35px;
 }
 footer .adress {
@@ -108,7 +110,7 @@ footer .adress {
     color: whitesmoke;
     text-decoration: underline;
     font-size: 20px;
-    padding-left: 200px;
+    padding-left: 100px;
     padding-top: 20px;
 }
 footer .tel {
@@ -120,7 +122,7 @@ footer a {
     color: whitesmoke;
     text-decoration: underline;
     font-size: 20px;
-    padding-left: 200px;
+    padding-left: 100px;
 }
 footer .email {
     text-align: center;
@@ -152,13 +154,14 @@ footer .github {
 }
 footer .downloads {
     display: block;
+    padding-left: 25px;
 }
 footer .download {
     text-align: left;
     color: whitesmoke;
     text-decoration: bold;
     font-size: 30px;
-    padding-left: 100px;
+    padding-left: 150px;
     padding-top: 35px;
 }
 footer .cv {
@@ -166,6 +169,6 @@ footer .cv {
     color: whitesmoke;
     text-decoration: underline;
     font-size: 20px;
-    padding-left: 100px;
+    padding-left: 280px;
     padding-top: 20px;
 }

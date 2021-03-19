@@ -2,15 +2,15 @@
     display: block;
     position: absolute;
     top: 50px;
-    left: 150px;
+    left: 10%;
 }
 .quimg {
     display: block;
     position: absolute;
-    top: 20px;
-    left: 400px;
-    width: 400px;
-    height: 400px;
+    top: 5%;
+    left: 25%;
+    width: 40%;
+    height: 75%;
 }
 .presentation .question {
     display: block;
@@ -54,8 +54,9 @@
 .update {
     display: block;
     position: absolute;
-    top: 1150px;
-    left: 280px;
+    background: none;
+    top: 185%;
+    left: 18%;
 }
 .brv {
     content: "";
@@ -66,7 +67,7 @@
     color: orangered;
     font-size: 30px;
     text-align: left;
-    margin-left: -150px;
+    margin-left: -20%;
     margin-bottom: 30px;
 }
 .update .version h2 {
@@ -105,7 +106,7 @@
 }
 .update .git {
     text-align: left;
-    margin-left: -150px;
+    margin-left: -20%;
     margin-bottom: 30px;
 }
 .update .linkgit {
@@ -119,7 +120,7 @@
     margin-bottom: 40px;
 }
 footer {
-    top: 2100px;
+    top: 300%;
 }
 /* Tablet Verticale 
 @media only screen and (min-width:1024px){
