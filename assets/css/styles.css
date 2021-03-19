@@ -1,6 +1,9 @@
 body {
     background-color: whitesmoke;
 }
+
+/*Menu*/
+
 .menu {
     position: absolute;
     z-index: 2000;
@@ -15,7 +18,7 @@ body {
 .navbar {
     position: absolute;
     top: -30px;
-    left: 130px;
+    left: 0px;
     background: none;
     width: 200px;
     height: 200px;
@@ -25,13 +28,16 @@ body {
     transition: transform 0.2s ease;
     opacity: 0%;
 }
-.navbar a {
+.menu .navbar a {
     font-size: 25px;
 }
 .showNav {
-    transform: translateY(13%);
+    transform: translateY(140%);
     opacity: 100%;
 }
+
+/*Commun*/
+
 img {
     display: block;
     width: 25%;
@@ -47,6 +53,9 @@ br {
     display: block;
     margin-bottom: 4px;
 }
+
+/*Header*/
+
 #text {
     display: block;
 }
@@ -77,11 +86,12 @@ header #text .saut {
     margin-bottom: 25px;
 }
 
+/*Footer*/
 
 footer {
     height: 250px;
     position: absolute;
-    top: 1700px;
+    bottom: 0;
     width: 100%;
     box-sizing: border-box;
     background-color: grey;
@@ -171,4 +181,114 @@ footer .cv {
     font-size: 20px;
     padding-left: 280px;
     padding-top: 20px;
+}
+
+/*Responsive*/
+
+@media only screen and (max-width:1024px){
+
+    /*Header*/
+
+    #text {
+        display: block;
+        position: absolute;
+        left: 25%;
+    }
+    header {
+        height: 100px;
+    }
+    header #text .text {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    header #text .info {
+        font-size: 10px;
+    }
+    header #text .saut {
+        margin-bottom: 15px;
+    }
+
+    /*Menu*/
+
+    .menu {
+        top: 15px;
+        left: 3%;
+        width: 15%;
+    }
+    .menu .navbar {
+        left: 0%;
+        background: grey;
+        width: 100%;
+        height: 100%;
+    }
+    .menu .navbar a {
+        font-size: 10px;
+    }
+
+    /*Footer*/
+
+    footer {
+        height: 400px;
+        top: 2000px;
+    }
+    footer ul {
+        display: block;
+    }
+    footer .contacts {
+        padding-left: 15%;
+    }
+    footer .contact {
+        font-size: 15px;
+        padding-left: 5%;
+        padding-top: 5%;
+    }
+    footer .adress {
+        font-size: 10px;
+        padding-top: 5%;
+        padding-left: 0.2%;
+    }
+    footer .tel {
+        padding-top: 4%;
+    }
+    footer a {
+        font-size: 10px;
+        padding-left: 0.2%;
+    }
+    footer .email {
+        padding-top: 4%;
+        padding-left: 1%;
+    }
+    footer .reseaux {
+        padding-left: 15%;
+        padding-top: 10%;
+    }
+    footer .reseau {
+        font-size: 15px;
+        padding-left: 5%;
+        padding-top: 5%;
+    }
+    footer .linkedin {
+        font-size: 10px;
+        padding-top: 4%;
+        padding-left: 1%;
+    }
+    footer .github {
+        font-size: 10px;
+        padding-top: 4%;
+        padding-left: 1%;
+    }
+    footer .downloads {
+        padding-left: 15%;
+        padding-top: 10%;
+    }
+    footer .download {
+        font-size: 15px;
+        padding-top: 4%;
+        padding-left: 1%;
+    }
+    footer .cv {
+        font-size: 10px;
+        padding-top: 4%;
+        padding-left: 1%;
+    }
 }
