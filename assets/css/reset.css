@@ -1,4 +1,4 @@
-body, img, a, p, span, div, strong, em, ul, ol, li, label, input, textarea, form, fieldset, table, tr, th, td, h1, h2, h3, h4, h5, h6, hr, iframe, embed, object {
+html, body, img, a, p, span, div, strong, em, ul, ol, li, label, input, textarea, form, fieldset, table, tr, th, td, h1, h2, h3, h4, h5, h6, hr, iframe, embed, object {
 	list-style-type: none;
 	text-decoration: none;
 	outline: none;

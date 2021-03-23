@@ -1,3 +1,6 @@
+section {
+    margin: 200px 0;
+}
 .presentation {
     display: block;
     position: relative;
@@ -6,7 +9,7 @@
 .quimg {
     display: block;
     position: relative;
-    top: 5%;
+    margin-top: 3%;
     left: 30%;
     width: 40%;
     height: 75%;
@@ -57,10 +60,9 @@
 
 .update {
     display: block;
-    position: absolute;
+    position: relative;
     background: none;
-    top: 190%;
-    left: 18%;
+    margin-bottom: 70px;
 }
 .brv {
     content: "";
@@ -71,7 +73,6 @@
     color: orangered;
     font-size: 30px;
     text-align: left;
-    margin-left: -20%;
     margin-bottom: 30px;
 }
 .update .version h2 {
@@ -122,7 +123,7 @@
 }
 .update .git {
     text-align: left;
-    margin-left: -20%;
+    margin-left: 0%;
 }
 .update .linkgit {
     color: black;
@@ -134,27 +135,21 @@
     display: block;
     margin-bottom: 40px;
 }
-footer {
-    top: 330%;
-}
 
 /*Responsive*/
 
-@media only screen and (max-width:1024px){
+@media only screen and (max-width:800px){
+    section {
+        margin: 20px 0;
+    }
     .presentation {
         display: block;
-        left: 0%;
     }    
     .quimg {
-        top: -170px;
-        left: 31.5%;
+        margin-top: 20%;
+        left: 25%;
         height: 25%;
         width: 50%;
-    }
-    .presentation .question {
-        display: block;
-        position: absolute;
-        top: 5%;
     }
     .presentation .question .qui {
         font-size: 15px;
@@ -162,17 +157,11 @@ footer {
     .presentation .question .quirep {
         font-size: 10px;
     }
-    .presentation .que {
-        top: -60px;
-    }
     .presentation .que .qui {
         font-size: 15px;
     }
     .presentation .que .quirep {
         font-size: 10px;
-    }
-    .presentation .comment {
-        top: -60px;
     }
     .presentation .comment .qui {
         font-size: 15px;
@@ -182,9 +171,6 @@ footer {
     }
     .presentation .comment a {
         font-size: 10px;
-    }
-    .presentation .pourquoi {
-        top: -60px;
     }
     .presentation .pourquoi .qui {
         font-size: 15px;
@@ -196,49 +182,47 @@ footer {
     /*Update*/
 
     .update {
-    top: 120%;
-    left: 18%;
+        top: 10%;
+        left: 1%;
     }
     .brv {
-    margin-bottom: 15px;
+        margin-bottom: 15px;
     }
     .update h1 {
-    color: orangered;
-    font-size: 15px;
-    margin-bottom: 15px;
+        color: orangered;
+        font-size: 15px;
+        margin-bottom: 15px;
     }
-    .update .version .v1, v2{
-    font-size: 10px;
+    .update .version .v1{
+        font-size: 10px;
     }
     .update .version .v2{
-    font-size: 10px;
+        font-size: 10px;
     }
     .update .version .v3{
-    font-size: 10px;
+        font-size: 10px;
     }
     .update .version .v4{
-    font-size: 10px;
+        font-size: 10px;
     }
     .update .version .v5{
-    font-size: 10px;
+        font-size: 10px;
     }
     .update .version .v6{
-    font-size: 10px;
+        font-size: 10px;
     }
     .update h2, a {
         font-size: 12.5px;
     }
     .update .linkgit {
-    font-size: 8px;
+        font-size: 8px;
     }
     .big {
         content: "";
         display: block;
         margin-bottom: 50px;
     }
-    footer {
-        top: 235%;
-    }
+
 }
 /*
 */
