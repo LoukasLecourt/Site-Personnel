@@ -24,13 +24,13 @@
             </div>
         </header>
 
-        <section class="qcm">
+        <!--<section class="qcm">
             <div id="wrapper">
                 <h1>J'ai des questions !</h1>
                 <p class="h1">Pouvez-vous y répondre ?</p>
                 <br class="space" />
                 
-                <form id="quiz" action="mailto:contact.pro.loukas@gmail.com" method="POST">
+                <form id="quiz" action="contact.php" method="POST">
                 <h2>Vous etes :</h2><br class="small" />
                 <label><input type="radio" name="q1" value="c1">
                     <p>Homme</p>
@@ -56,30 +56,46 @@
                     <p>46 ans et plus</p>
                 </label><br class="question" />
 
-                <h2>Quel est votre proféssion ?</h2><br class="small" />
-                <label><input class="q" type="text" name="q5" value="">
+                <h2>Quel est votre profession ?</h2><br class="small" />
+                <label><input class="q" type="text" name="q3" value="">
                 </label><br class="question" />
                 
                 <h2>Comment m'avez-vous découvert ?</h2><br class="small" />
-                <label><input class="q" type="textarea" name="q3" value="">
-                </label><br class="question" />
-                
-                <h2>Pourquoi vous intéressez-vous à la programmation ?</h2><br class="small" />
                 <label><input class="q" type="textarea" name="q4" value="">
                 </label><br class="question" />
                 
-                <button type="submit/reset" id="submit" onclick="tabulateAnswers()">Remettre vos réponces</button>
+                <h2>Pourquoi vous intéressez-vous à la programmation ?</h2><br class="small" />
+                <label><input class="q" type="textarea" name="q5" value="">
+                </label><br class="question" />
+                
+                <button type="submit" id="submit" value="Envoyer" onclick="tabulateAnswers()">Remettre vos réponces</button>
                 <button type="reset" id="reset" onclick="resetAnswer()">Recommencer</button>
                 </form>
+                
                 <div id="answer">Merci d'avoir répondu !</div>
                 
             </div>
-        </section>
+        </section>-->
         
+        <section class="map">
+        <div id="basic_map"></div>
+        <div class="mapadress">
+            <h1>21 Rue des Vosges,</h1>
+            <h1>27500 Pont Audemer,</h1>
+            <h1>Normandie, France</h1>
+        </div>
+        </section>
+
+        <section class="coordonnée">
+            <h1><h2>Téléphone :</h2> <h3> 06 73 71 14 74</h3></h1>
+            <h1><h2>Adresse E-Mail :</h2> <h3>contact.pro.loukas@gmail.com</h3></h1>
+            <h1><h2>GitHub :</h2> <a href="https://github.com/LoukasLecourt">LoukasLecourt</a></h3></h1>
+        </section>
+
         <footer>
             <nav>
-                <ul>
-                    <li>
+                <ul class="footer">
+                    <li class="lifooter">
                         <ul class="contacts">
                             <h2 class="contact">Contact</h2>
                             <li><h2 class="adress">21 Rue des Vosges, <br>
@@ -90,22 +106,41 @@
                                 <a href="mailto:contact.pro.loukas@gmail.com">contact.pro.loukas@gmail.com</a></h2></li>
                         </ul>
                     </li>
-                    <li>
+                    <li class="lifooter">
                         <ul class="reseaux">
                             <h2 class="reseau">Réseau sociaux</h2>
                             <li><h2 class="linkedin"><a href="https://www.linkedin.com/in/loukas-lecourt-b98478200/">Linkedin</a></h2></li>
                             <li><h2 class="github"><a href="https://github.com/LoukasLecourt">GitHub</a></h2></li>
                         </ul>
                     </li>
-                    <li>
+                    <li class="lifooter">
                         <ul class="downloads">
                             <h2 class="download">Fichier téléchargable</h2>
-                            <li><h2 class="cv"><a href="assets/cv.pdf" download="assets/download/cv.pdf">CV</a></h2></li>
+                            <li><h2 class="cv"><a href="assets/download/cv_lecourt_loukas.pdf" download="assets/download/cv_lecourt_loukas.pdf">CV</a></h2></li>
                         </ul>
                     </li>
                 </ul>
             </nav>
+            <h1 class="mention">Loukas Lecourt | Copyright 2021 | Mentions légales | Politique de confidentialité</h1>
         </footer>
         <script src="assets/js/scripts/main.js"></script>
+        <script src="http://maps.google.com/maps/api/js"></script>
+        <script src="assets/js/scripts/gmaps.js"></script>
+        <script>
+        var map = new GMaps({
+            el: '#basic_map',
+            lat: 49.35321958171476,
+            lng: 0.49426346251883585,
+            zoom: 18,
+        });
+        map.addMarker({
+            lat: 49.353108757351734,
+            lng: 0.4942615538015854,
+            title: 'Mon Domicile !',
+            infoWindow: {
+                content: '<center>Mon Domicile ! <center /> <br />21 Rue des Vosges, <br />27500 Pont Audemer'
+            }
+        });
+        </script>
     </body>
 </html>

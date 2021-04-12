@@ -1,13 +1,13 @@
 body {
-    background-color: whitesmoke;
-    height: 100%;
+    background-color: #262d39;
     width: 100%;
+    position: relative;
 }
 
 /*Menu*/
 
 .menu {
-    position: absolute;
+    position: relative;
     z-index: 2000;
     top: 30px;
     left: 10%;
@@ -18,10 +18,10 @@ body {
     background-repeat: no-repeat;
 }
 .navbar {
-    position: absolute;
+    position: relative;
     top: 10px;
     left: 0px;
-    background-color: grey;
+    background-color: #212529;
     width: 200px;
     height: 130px;
     overflow: hidden;
@@ -32,6 +32,7 @@ body {
 }
 .menu .navbar a {
     font-size: 25px;
+    color: #eceef1;
 }
 .showNav {
     transform: translateY(140%);
@@ -53,20 +54,20 @@ br {
 /*Header*/
 
 #text {
-    display: block;
     position: relative;
+    flex-grow: 2;
+    padding-top: 3%;
 }
 header {
-    position: absolute;
-    top: 0;
+    display: inline-flex;
+    position: relative;
     width: 100%;
     box-sizing: border-box;
     z-index: 1000;
-    background-color: grey;
+    background-color: #212529;
     height: 225px;
 }
 header #text .text {
-    margin-top: 50px;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
@@ -86,102 +87,97 @@ header #text .saut {
 /*Footer*/
 
 footer {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    margin-top: 5%;
+    padding-top: 2%;
     width: 100%;
-    height: 250px;
+    height: 270px;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
-    background-color: grey;
+    background-color: #212529;
     z-index: 1000;
+}
+footer li {
+    width: 280px;
+    height: auto;
+}
+footer .footer {
+    position: relative;
+    display: inline-flex;
+    padding: 2% 22%;
 }
 footer .contacts {
     display: block;
-    padding-left: 100px;
+    position: relative;
 }
 footer .reseaux {
     display: block;
-    padding-left: 25px;
-}
-footer ul {
-    display: inline-flex;
+    position: relative;
 }
 footer .contact {
     text-align: left;
     color: whitesmoke;
     text-decoration: bold;
     font-size: 30px;
-    padding-left: 100px;
-    padding-top: 35px;
 }
 footer .adress {
     text-align: center;
     color: whitesmoke;
     text-decoration: underline;
     font-size: 20px;
-    padding-left: 100px;
-    padding-top: 20px;
 }
 footer .tel {
     color: whitesmoke;
     text-align: center;
-    padding-top: 20px;
 }
 footer a {
     color: whitesmoke;
     text-decoration: underline;
     font-size: 20px;
-    padding-left: 100px;
 }
 footer .email {
     text-align: center;
-    padding-top: 20px;
 }
 footer .reseau {
     text-align: left;
     color: whitesmoke;
     text-decoration: bold;
     font-size: 30px;
-    padding-left: 100px;
-    padding-top: 35px;
 }
 footer .linkedin {
     text-align: center;
     color: whitesmoke;
     text-decoration: underline;
     font-size: 20px;
-    padding-left: 100px;
-    padding-top: 20px;
 }
 footer .github {
     text-align: center;
     color: whitesmoke;
     text-decoration: underline;
     font-size: 20px;
-    padding-left: 100px;
-    padding-top: 20px;
 }
 footer .downloads {
     display: block;
-    padding-left: 25px;
+    position: relative;
 }
 footer .download {
     text-align: left;
     color: whitesmoke;
     text-decoration: bold;
     font-size: 30px;
-    padding-left: 150px;
-    padding-top: 35px;
 }
 footer .cv {
     text-align: center;
     color: whitesmoke;
     text-decoration: underline;
     font-size: 20px;
-    padding-left: 280px;
-    padding-top: 20px;
+}
+footer .mention {
+    position: absolute;
+    bottom: 1%;
+    left: 30%;
+    font-size: 18px;
+    text-align: center;
+    color: #0a9f8a;
 }
 
 /*Responsive*/
@@ -192,21 +188,16 @@ footer .cv {
 
     #text {
         display: block;
-        position: absolute;
-        left: 25%;
+        position: relative;
     }
     header {
         height: 100px;
     }
     header #text .text {
-        margin-top: 10px;
         font-size: 15px;
     }
     header #text .info {
         font-size: 10px;
-    }
-    header #text .saut {
-        margin-bottom: 15px;
     }
 
     /*Menu*/
@@ -214,81 +205,58 @@ footer .cv {
     .menu {
         top: 15px;
         left: 3%;
-        width: 15%;
+        width: auto;
     }
     .menu .navbar {
         left: 0%;
-        background: grey;
         width: 100%;
         height: 100%;
     }
     .menu .navbar a {
         font-size: 10px;
     }
+    .showNav {
+        transform: translateY(90%);
+    }
 
     /*Footer*/
 
     footer {
-        height: 370px;
+        height: 300px;
     }
-    footer ul {
-        display: block;
+    footer .footer {
+        padding: 1% 15%;
+        display: list-item;
     }
-    footer .contacts {
-        padding-left: 15%;
+    footer .lifooter {
+        padding-top: 10%;
     }
     footer .contact {
         font-size: 15px;
-        padding-left: 5%;
-        padding-top: 5%;
     }
     footer .adress {
         font-size: 10px;
-        padding-top: 4%;
-        padding-left: 0.2%;
-    }
-    footer .tel {
-        padding-top: 4%;
     }
     footer a {
         font-size: 10px;
-        padding-left: 0.2%;
-    }
-    footer .email {
-        padding-top: 4%;
-        padding-left: 1%;
-    }
-    footer .reseaux {
-        padding-left: 15%;
-        padding-top: 5%;
     }
     footer .reseau {
         font-size: 15px;
-        padding-left: 5%;
-        padding-top: 5%;
     }
     footer .linkedin {
         font-size: 10px;
-        padding-top: 4%;
-        padding-left: 1%;
     }
     footer .github {
         font-size: 10px;
-        padding-top: 4%;
-        padding-left: 1%;
-    }
-    footer .downloads {
-        padding-left: 15%;
-        padding-top: 5%;
     }
     footer .download {
         font-size: 15px;
-        padding-top: 4%;
-        padding-left: 1%;
     }
     footer .cv {
         font-size: 10px;
-        padding-top: 4%;
-        padding-left: 1%;
+    }
+    footer .mention {
+        left: 0;
+        font-size: 10px;
     }
 }

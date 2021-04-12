@@ -1,5 +1,5 @@
 body {
-    background-color: whitesmoke;
+    background-color: #262d39;
 }
 .menu {
     position: absolute;
@@ -20,7 +20,7 @@ body {
     width: 280px;
     height: 210px;
     overflow: hidden;
-    color: white;
+    color: #eceef1;
     transform: translateY(-100%);
     transition: transform 0s linear;
     opacity: 0%;
@@ -29,14 +29,12 @@ body {
 .navbar a {
     margin-left: 105px;
     font-size: 25px;
+    color: #eceef1;
 }
 .showNav {
     transform: translateY(15%);
     opacity: 100%;
-    background-color: grey;
-}
-.showDesc {
-    opacity: 0%;
+    background-color: #212529;
 }
 img {
     display: block;
@@ -48,7 +46,7 @@ img {
 }
 section {
     display: block;
-    background-color: whitesmoke;
+    background-color: #262d39;
 }
 br {
     content: "";
@@ -87,7 +85,7 @@ header {
     width: 100%;
     box-sizing: border-box;
     z-index: 1000;
-    background-color: grey;
+    background-color: #212529;
     height: 225px;
 }
 header #text .text {
@@ -97,15 +95,19 @@ header #text .text {
     font-size: 40px;
     font-weight: bold;
     text-align: center;
-    color: black;
+    color: rgb(75, 145, 236);
+    text-decoration: underline red;
 }
-header #text .desc1, .desc2 {
+header #text .desc {
     font-size: 30px;
     text-align: center;
     font-weight: italic;
-    color: black;
+    color: #eceef1;
     margin-bottom: 3px;
     opacity: 100%;
+}
+header #text .desc1 {
+    opacity: 0%;
 }
 header #text .saut {
     content: "";
@@ -143,9 +145,10 @@ header .header {
 }
 #pro .recherches .competences h3 {
     font-size: 25px;
+    color: yellow;
 }
 #pro .recherches .competences h4 {
-    color : black;
+    color : #eceef1;
     font-size: 23px;
 }
 .formation .formations {
@@ -167,21 +170,20 @@ header .header {
 }
 .formation h3 {
     font-size: 25px;
+    color: yellow;
 }
 .formation h4 {
     font-size: 23px;
-    color: black;
+    color: #eceef1;
 }
 .formation .spe{
     font-size: 18px;
+    color: #eceef1;
 }
 .formation .date{
     font-size: 16px;
     font-style: italic;
-}
-.formation p{
-    font-size: xx-large;
-    font-style: italic;
+    color: rgb(83, 228, 85);
 }
 .formation .projets .espace {
     content: "";
@@ -210,16 +212,19 @@ header .header {
 }
 #end .fin h3 {
     font-size: 25px;
+    color: yellow;
 }
 #end .fin h4 {
     font-size: 24px;
-    color: black;
+    color: #eceef1;
 }
 #end .fin .experience .experiences p.date {
     font-size: 20px;
+    color: rgb(83, 228, 85);
 }
 #end .fin .experience .experiences p.description {
     font-size: 21px;
+    color: rgb(106, 163, 238);
 }
 
 #passion .pass .passion {
@@ -231,10 +236,11 @@ header .header {
 }
 #passion .pass .passion h3 {
     font-size: 25px;
+    color: yellow;
 }
 #passion .pass .passion h4 {
     font-size: 24px;
-    color: black;
+    color: #eceef1;
 }
 #passion .pass .passion br {
     content: "";
@@ -249,11 +255,11 @@ footer {
     width: 100%;
     box-sizing: border-box;
     height: 200px;
-    background-color: grey;
+    background-color: #212529;
 }
 footer .adress {
     flex: 1;
-    color: whitesmoke;
+    color:rgb(83, 228, 85);
     text-decoration: underline;
     font-size: 20px;
     padding-left: 15px;
@@ -264,7 +270,7 @@ footer .tel {
     padding-top: 125px;
 }
 footer a {
-    color: whitesmoke;
+    color:rgb(83, 228, 85);
     text-decoration: underline;
     font-size: 20px;
     padding-left: 80px;
@@ -290,7 +296,7 @@ footer .github {
         position: relative;
     }
     header #text {
-        margin-top: 30px;
+        margin-top: 40px;
         left: 15px;
     }
     header {
@@ -300,11 +306,7 @@ footer .github {
         font-size: 15px;
         margin-left: -50px;
     }
-    header #text .desc1 {
-        font-size: 10px;
-        margin-top: 30px;
-    }
-    header #text .desc2 {
+    header #text .desc {
         font-size: 10px;
     }
     header #text .header {

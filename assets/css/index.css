@@ -1,49 +1,43 @@
-section {
-    margin: 200px 0;
-}
 .presentation {
     display: block;
     position: relative;
-    top: 5%;
+    margin: 2% 0;
 }
 .quimg {
     display: block;
     position: relative;
-    margin-top: 3%;
-    left: 30%;
+    left: 27%;
     width: 40%;
     height: 75%;
+    margin-top: -3%;
+    margin-bottom: -5%;
 }
 .presentation .question {
     display: block;
     position: relative;
-    top: 100%;
 }
 .presentation .que {
     display: block;
     position: relative;
-    top: 100%;
 }
 .presentation .comment {
     display: block;
     position: relative;
-    top: 100%;
 }
 .presentation .comment a {
-    color: blue;
+    color: rgb(83, 228, 83);
 }
 .presentation .pourquoi {
     display: block;
     position: relative;
-    top: 100%;
 }
 .presentation .qui {
-    color: black;
+    color: yellow;
     font-size: 25px;
     text-align: center;
 }
 .presentation .quirep {
-    color: #161b22;
+    color: #eceef1;
     font-size: 20px;
     text-align: center;
 }
@@ -62,73 +56,106 @@ section {
     display: block;
     position: relative;
     background: none;
-    margin-bottom: 70px;
 }
 .brv {
     content: "";
     display: block;
     margin-bottom: 25px;
 }
+.update .imgupdate {
+    display: block;
+    position: relative;
+    left: 15%;
+    width: 70%;
+    height: auto;
+    margin: -9% 0;
+}
 .update h1 {
-    color: orangered;
+    color: rgb(75, 145, 236);
     font-size: 30px;
     text-align: left;
+    padding-top: 2%;
+    padding-left: 3%;
     margin-bottom: 30px;
+    text-decoration: underline red;
 }
 .update .version h2 {
-    color: black;
+    color: yellow;
 }
 .update .version .v1 {
     position: relative;
-    color: #161b22;
+    color: #eceef1;
     font-size: 20px;
     text-align: center;
 }
 .update .version .v2 {
     position: relative;
-    color: #161b22;
+    color: #eceef1;
     font-size: 20px;
     text-align: center;
 }
 .update .version .v3 {
     position: relative;
-    color: #161b22;
+    color: #eceef1;
     font-size: 20px;
     text-align: center;
 }
 .update .version .v4 {
     position: relative;
-    color: #161b22;
+    color: #eceef1;
     font-size: 20px;
     text-align: center;
 }
 .update .version .v5 {
     position: relative;
-    color: #161b22;
+    color: #eceef1;
     font-size: 20px;
     text-align: center;
 }
 .update .version .v6 {
     position: relative;
-    color: #161b22;
+    color: #eceef1;
+    font-size: 20px;
+    text-align: center;
+}
+.update .version .v7 {
+    position: relative;
+    color: #eceef1;
+    font-size: 20px;
+    text-align: center;
+}
+.update .version .v8 {
+    position: relative;
+    color: #eceef1;
+    font-size: 20px;
+    text-align: center;
+}
+.update .version .v9 {
+    position: relative;
+    color: #eceef1;
+    font-size: 20px;
+    text-align: center;
+}
+.update .version .v10 {
+    position: relative;
+    color: #eceef1;
     font-size: 20px;
     text-align: center;
 }
 .update h2, a {
-    color: black;
+    color: #eceef1;
     font-size: 25px;
 }
 .update a {
-    color: blue;
+    color: rgb(83, 228, 83);
 }
 .update .git {
+    display: block;
+    position: relative;
     text-align: left;
-    margin-left: 0%;
-}
-.update .linkgit {
-    color: black;
-    font-size: 15px;
-    text-align: left;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-bottom: 4%;
 }
 .big {
     content: "";
@@ -140,14 +167,13 @@ section {
 
 @media only screen and (max-width:800px){
     section {
-        margin: 20px 0;
+        margin: 0 0;
     }
     .presentation {
         display: block;
     }    
     .quimg {
-        margin-top: 20%;
-        left: 25%;
+        left: 20%;
         height: 25%;
         width: 50%;
     }
@@ -182,47 +208,59 @@ section {
     /*Update*/
 
     .update {
-        top: 10%;
         left: 1%;
     }
     .brv {
         margin-bottom: 15px;
     }
+    .update .imgupdate {
+        left: 10%;
+        width: 80%;
+        height: auto;
+    }
     .update h1 {
-        color: orangered;
         font-size: 15px;
         margin-bottom: 15px;
     }
-    .update .version .v1{
+    .update .version .v1 {
         font-size: 10px;
     }
-    .update .version .v2{
+    .update .version .v2 {
         font-size: 10px;
     }
-    .update .version .v3{
+    .update .version .v3 {
         font-size: 10px;
     }
-    .update .version .v4{
+    .update .version .v4 {
         font-size: 10px;
     }
-    .update .version .v5{
+    .update .version .v5 {
         font-size: 10px;
     }
-    .update .version .v6{
+    .update .version .v6 {
+        font-size: 10px;
+    }
+    .update .version .v7 {
+        font-size: 10px;
+    }
+    .update .version .v8 {
+        font-size: 10px;
+    }
+    .update .version .v9 {
+        font-size: 10px;
+    }
+    .update .version .v10 {
         font-size: 10px;
     }
     .update h2, a {
         font-size: 12.5px;
-    }
-    .update .linkgit {
-        font-size: 8px;
     }
     .big {
         content: "";
         display: block;
         margin-bottom: 50px;
     }
-
+    .update .git {
+        padding-bottom: 10%;
+    }
 }
-/*
-*/
