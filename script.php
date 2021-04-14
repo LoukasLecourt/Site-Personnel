@@ -4,8 +4,8 @@
     $serveur = "localhost";
     $dbname = "cours";
     $user = "root";
-    $pass = "root";
-    
+    $pass = "";
+
     try{
         //On se connecte à la BDD
         $dbco = new PDO("mysql:host=$serveur;dbname=$dbname",$user,$pass);
