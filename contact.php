@@ -1,8 +1,8 @@
 <?php
-    $serveur = "mysql-loukaslecourt.alwaysdata.net";
-    $dbname = "loukaslecourt_formulaire";
-    $user = "229803";
-    $pass = "Loukas.19";
+    $serveur = "";
+    $dbname = "";
+    $user = "";
+    $pass = "";
     
     if (isset($_POST['q1'])) {
         $sexe = $_POST['q1'];
