@@ -1,0 +1,60 @@
+html, body, img, a, p, span, div, strong, em, ul, ol, li, label, input, textarea, form, fieldset, table, tr, th, td, h1, h2, h3, h4, h5, h6, hr, iframe, embed, object {
+	list-style-type: none;
+	text-decoration: none;
+	outline: none;
+	border: 0;
+	margin: 0;
+	padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-weight: normal;
+}
+img {
+	size: 100%;
+}
+h1, h2, h3, h4, h5, h6,
+textarea,
+body {
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: var(--default-font-size);
+	line-height: var(--default-line-height);
+	font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #8B0000;
+}
+table, td, tr, th {
+	border-spacing: 0;
+	vertical-align: middle;
+	border-collapse: collapse;
+}
+label {
+	display: block;
+}
+html {
+	overflow-y: scroll;
+}
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+    font-size: 0;
+}
+.clearfix {
+	display: inline-table;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+a {
+    color: black;
+}
+a:hover {
+    opacity: 0.5;
+    transition: 1s;
+}

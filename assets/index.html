@@ -1,95 +1,157 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Questionnaire | Loukas Lecourt</title>
+        <title>Accueil | Loukas Lecourt</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="noindex, nofollow">
+        <meta name="title" content="Page d'accueil | Loukas Lecourt" />
+        <meta name="description" content="Page d'accueil du site de Loukas Lecourt, un jeune programmeur"/>
         <link rel="stylesheet" type="text/css" media="screen" href="assets/css/styles.css">
-        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/contact.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/index.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     </head>
+
     <body>
         <header>
             <nav class="menu">
                 <ul class="navbar">
                     <li><a class="menulink" href="index.html">Accueil</a></li>
                     <li><a class="menulink" href="cv.html">CV</a></li>
-                    <li><a class="menulink" href="contact.html">Questionnaire</a></li>
+                    <li><a class="menulink" href="contact.html">Contact</a></li>
                     <li><a class="menulink" href="gallery.html">Projets</a></li>
                 </ul>
             </nav>
             <div id="text">
-                <h1 class="text">Loukas Lecourt</h1> <br class="saut"/>
-                <h2 class="info">La navigation sur ce site, se fait à l'aide du menu. <br />
-                    Pour y accéder, veuillez cliquer sur ma tete.</h2>
+                <h1 class="text"><strong>Loukas Lecourt</strong></h1> <br class="saut"/>
+                <h2 class="info">La navigation sur ce site se fait à l'aide du menu. <br />
+                    Pour y accéder, veuillez cliquer sur ma tête.</h2>
             </div>
         </header>
 
-        <!--<section class="qcm">
-            <div id="wrapper">
-                <h1>J'ai des questions !</h1>
-                <p class="h1">Pouvez-vous y répondre ?</p>
-                <br class="space" />
-                
-                <form id="quiz" action="contact.php" method="POST">
-                <h2>Vous etes :</h2><br class="small" />
-                <label><input type="radio" name="q1" value="c1">
-                    <p>Homme</p>
-                </label><br />
-                <label><input type="radio" name="q1" value="c2">
-                    <p>Femme</p>
-                </label><br />
-                <label><input type="radio" name="q1" value="c3">
-                    <p>Autre</p>
-                </label><br class="question" />
-            
-                <h2>Quel ages avez-vous ?</h2><br class="small" />
-                <label><input type="radio" name="q2" value="c1">
-                    <p>0-15 ans</p>
-                </label><br />
-                <label><input type="radio" name="q2" value="c2">
-                    <p>16-25 ans</p>
-                </label><br />
-                <label><input type="radio" name="q2" value="c3">
-                    <p>26-45 ans</p>
-                </label><br />
-                <label><input type="radio" name="q2" value="c4">
-                    <p>46 ans et plus</p>
-                </label><br class="question" />
-
-                <h2>Quel est votre profession ?</h2><br class="small" />
-                <label><input class="q" type="text" name="q3" value="">
-                </label><br class="question" />
-                
-                <h2>Comment m'avez-vous découvert ?</h2><br class="small" />
-                <label><input class="q" type="textarea" name="q4" value="">
-                </label><br class="question" />
-                
-                <h2>Pourquoi vous intéressez-vous à la programmation ?</h2><br class="small" />
-                <label><input class="q" type="textarea" name="q5" value="">
-                </label><br class="question" />
-                
-                <button type="submit" id="submit" value="Envoyer" onclick="tabulateAnswers()">Remettre vos réponces</button>
-                <button type="reset" id="reset" onclick="resetAnswer()">Recommencer</button>
-                </form>
-                
-                <div id="answer">Merci d'avoir répondu !</div>
-                
-            </div>
-        </section>-->
-        
-        <section class="map">
-        <div id="basic_map"></div>
-        <div class="mapadress">
-            <h1>21 Rue des Vosges,</h1>
-            <h1>27500 Pont Audemer,</h1>
-            <h1>Normandie, France</h1>
-        </div>
+        <section class="arrived">
+            <p>Vous etes passionné de <strong>programmation</strong> ? <strong> Loukas</strong>  aussi, <br>
+            Vous cherchez un <strong>programmeur</strong> ou un <strong>intégrateur web</strong> ? <strong>Loukas</strong> est la pour vous. <br>
+            Moi <strong>Loukas Lecourt</strong> est un jeune <strong>Programmeur</strong> de 18 ans qui cherche un stage ou une alternance en tand <br>
+            qu'intégrateur web, dans le but d'aidé des personnes, d'entré dans le monde du travaille ou encore <br>
+            de travailler en apprenant. Pour le moment je suis principalement sur du Html Css, ou du WordPress bien <br>
+            que j'ai aussi quelque connaissance en PHP, Javascript ou encore du Java.</p>
         </section>
-
-        <section class="coordonnée">
-            <h1><h2>Téléphone :</h2> <h3> 06 73 71 14 74</h3></h1>
-            <h1><h2>Adresse E-Mail :</h2> <h3>contact.pro.loukas@gmail.com</h3></h1>
-            <h1><h2>GitHub :</h2> <a href="https://github.com/LoukasLecourt">LoukasLecourt</a></h3></h1>
+        
+        <section class="presentation">
+            <img src="assets/images/pétaledequestion.png" class="quimg">
+            <br class="brpresentation"/>
+            <div class="question">
+                <h2 class="qui">Qui suis-je ?</h2>
+                <br class="brpresentation"/>
+                <p class="quirep">Qui je suis ? très bonne question, e bien 
+                    je me nomme Loukas Lecourt, né le 19 novembre 2002, j’ai 
+                    actuellement le bac de série Scientifique spécialité Physique Chimie.<br />
+                    Je suis autonome, bien organisé, je préfère travailler
+                    seul bien qu’appréciant le travail de groupe.</p>
+                    <br class="brsepar" />
+            </div>
+            <div class="que">
+                <h2 class="qui">Quel est ma profession ?</h2>
+                <br class="brpresentation"/>
+                <p class="quirep">Ma profession ? Et bien, je suis programmeur passionné depuis 2018.</p>
+                <br class="brsepar" />
+            </div>
+            <div class="comment">
+                <h2 class="qui">Quand et comment ai-je commencé à programmer ?</h2>
+                <br class="brpresentation"/>
+                <p class="quirep">J'ai découvert la programmation en 2018, j'ai commencé par faire du Java, pour faire un plugin Minecraft, <br/>
+                    mais par la suite, je me suis mis au HTML5 CSS3, le tout en autonomie via le site web <a href="https://openclassrooms.com">OpenClassRoom</a>
+                </p>
+                <br class="brsepar" />
+            </div>
+            <div class="pourquoi">
+                <h2 class="qui">Pourquoi la programmation ?</h2>
+                <br class="brpresentation">
+                <p class="quirep">À l'origine, j'ai appris la programmation avec ma scolarité, j'ai commencé par faire du 'Python' (dont je ne suis pas fan) 
+                    j'ai poursuivi par du 'Basic Casio', langage de programmation sur lequel je passais mes heures perdues, 
+                    mais le vrai langage de développement avec lequel j'ai passé beaucoup de temps, c'est le 'Java', que j'ai commencé pour faire un plugin 
+                    pour le jeu vidéo 'Minecraft', un projet que j'ai commencé, mais qui est mis sur pause. Pour plus d'information, dessus, allez voir mes projets.   
+                    A mon arrivé dans mon école actuelle, j'ai commencé le HTML5 CSS3, à qui par la suite j'ai ajouté le Javascript.
+                </p>
+            </div>
+        </section>
+        
+        
+        <section class="update">
+            <img src="assets/images/panneaudublede.png" class="imgupdate">
+            <h2>Update du site depuis sa création :</h2> <br />
+            <ul class="version">
+                <li class="v1">
+                    <h3>Première version du site (V1)</h3>
+                    <p>Création du site, création de la page 'index.html' (accueil), 'gallery.html' (gallerie)
+                        ainsi que 'contact.html' (contact) avec leurs pages css respectives. 
+                        Création du menu, et donc du fichier 'main.js' ainsi que le header, le footer et la forme du questionnaire. 
+                    </p>
+                </li>
+                <br class="brv"/>
+                <li class="v2">
+                    <h3>Seconde version du site (V1.1)</h3>
+                    <p>Résolution des deux problèmes majeurs sur le site, soit une réduction de la clic-box du menu
+                        ainsi que l'image du menu qui ne s'affichait pas.
+                        Ajout de deux plugin pour la gallerie : 'Fancybox' et 'Splide'.
+                    </p>
+                </li>
+                <br class="brv"/>
+                <li class="v3">
+                    <h3>Troisième version du site (V1.2)</h3>
+                    <p>Optimisation du code css, et ajout du contenu sur la page d'accueil.
+                    </p>
+                </li>
+                <br class="brv"/>
+                <li class="v4">
+                    <h3>Quatrième version du site (V2)</h3>
+                    <p>Ajout de la page 'cv.html' ainsi que sa page CSS, le tout fini à 85 %.
+                    </p>
+                </li>
+                <br class="brv"/>
+                <li class="v5">
+                    <h3>Cinquième version du site (V2.1)</h3>
+                    <p>Réglage de bug et ajout du site en ligne via Alwaysdata.
+                    </p>
+                </li>
+                <br class="brv"/>
+                <li class="v6">
+                    <h3>Sixième version du site (V2.2)</h3>
+                    <p>Réglage de bug sur le header et footer lors de l'ajout en ligne.
+                    </p>
+                </li>
+                <br class="brv"/>
+                <li class="v7">
+                    <h3>Septième version du site ( V3.0 )</h3>
+                    <p>Moment du responsive : header et footer fini pour tout écran inférieure à 800px. <br />
+                        (initialement 1024px mais pour cause de bug j'ai changé le 1024px en 800px)
+                    </p> 
+                </li>
+                <br class="brv"/>
+                <li class="v8">
+                    <h3>Huitième version du site ( V3.1 )</h3>
+                    <p>Responsive en marche, header et footer fini, accueil bien avancer.
+                    </p> 
+                </li>
+                <br class="brv"/>
+                <li class="v9">
+                    <h3>Nevieme version du site ( V3.2 )</h3>
+                    <p>Responsive accueil fini et reglage du bug sur le footer.<br />
+                        Responsive de la page du CV fini à ~85%
+                    </p> 
+                </li>
+                <br class="brv"/>
+                <li class="v10">
+                    <h3>Dixieme version du site ( V4.0 )</h3>
+                    <p>Responsive fini (normalement), quelque probleme à regler (menu en responsive)
+                    </p> 
+                </li>
+            </ul>
+            <br class="big"/>
+            <div class="git">
+                <h3>Tout le code est disponible sur mon GitHub :</h3>
+                <a href="https://github.com/LoukasLecourt">Loukas Lecourt</a>
+            </div>
         </section>
 
         <footer>
@@ -124,23 +186,5 @@
             <h1 class="mention">Loukas Lecourt | Copyright 2021 | Mentions légales | Politique de confidentialité</h1>
         </footer>
         <script src="assets/js/scripts/main.js"></script>
-        <script src="http://maps.google.com/maps/api/js"></script>
-        <script src="assets/js/scripts/gmaps.js"></script>
-        <script>
-        var map = new GMaps({
-            el: '#basic_map',
-            lat: 49.35321958171476,
-            lng: 0.49426346251883585,
-            zoom: 18,
-        });
-        map.addMarker({
-            lat: 49.353108757351734,
-            lng: 0.4942615538015854,
-            title: 'Mon Domicile !',
-            infoWindow: {
-                content: '<center>Mon Domicile ! <center /> <br />21 Rue des Vosges, <br />27500 Pont Audemer'
-            }
-        });
-        </script>
     </body>
 </html>

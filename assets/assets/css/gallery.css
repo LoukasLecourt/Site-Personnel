@@ -1,0 +1,131 @@
+.title h1 {
+    display: block;
+    position: relative;
+    color: rgb(75, 145, 236);
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline red;
+}
+.gal {
+    display: block;
+    position: relative;
+    width: 90%;
+    height: auto;
+    background: none;
+    padding-left: 5%;
+}
+.gal .splide {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.gal .splide img {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.gal .splide .img-fluid-text1 {
+    display: block;
+    position: relative;
+    margin-top: 4%;
+    text-align: center;
+    color: yellow;
+    font-size: 40px;
+}
+.gal .splide .img-fluid-desc1 {
+    padding-top: 3%;
+    position: relative;
+    text-align: center;
+    color: #eceef1;
+    font-size: 30px;
+}
+.gal .splide .img-fluid-desc2 {
+    padding-top: 2%;
+    position: relative;
+    text-align: center;
+    color: #eceef1;
+    font-size: 30px;
+}
+.gal .splide .img-fluid-desc1 img {
+    padding-top: 2%;
+    position: relative;
+    left: 10%;
+    width: 80%;
+    height: auto;
+}
+.gal .splide .img-fluid-text2 {
+    display: block;
+    position: relative;
+    margin-top: 4%;
+    text-align: center;
+    color: yellow;
+    font-size: 40px;
+}
+.gal .splide .img-fluid-desc3 {
+    padding-top: 3%;
+    position: relative;
+    text-align: center;
+    color: #eceef1;
+    font-size: 30px;
+}
+.gal .splide .img-fluid-desc4 {
+    padding-top: 3%;
+    position: relative;
+    text-align: center;
+    color: #eceef1;
+    font-size: 30px;
+}
+.gal .splide .img-fluid-desc3 .link{
+    color: rgb(83, 228, 83);
+    font-size: 35px;
+}
+.gal .splide .img-fluid-desc3 img {
+    padding-top: 2%;
+    position: relative;
+    left: 10%;
+    width: 80%;
+    height: auto;
+}
+/* Responcive*/
+
+@media only screen and (max-width:800px) {
+    .title h1 {
+        font-size: 20px;
+    }
+    .gal {
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+    }
+    .gal .splide {
+        width: 100%;
+        height: auto;
+    }
+    .gal .splide img {
+        width: 100%;
+        height: 400px;
+    }
+    .gal .splide .img-fluid-text1 {
+        font-size: 20px;
+    }
+    .gal .splide .img-fluid-text2 {
+        font-size: 20px;
+    }
+    .gal .splide .img-fluid-desc1 {
+        font-size: 15px;
+    }
+    .gal .splide .img-fluid-desc2 {
+        font-size: 15px;
+    }
+    .gal .splide .img-fluid-desc3 {
+        font-size: 15px;
+    }
+    .gal .splide .img-fluid-desc3 .link {
+        font-size: 17px;
+    }
+    .gal .splide .img-fluid-desc4 {
+        font-size: 15px;
+    }
+}
