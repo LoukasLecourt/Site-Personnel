@@ -2,7 +2,7 @@
     $serveur = "mysql-loukaslecourt.alwaysdata.net";
     $dbname = "loukaslecourt_formulaire";
     $user = "229803";
-    $pass = "Loukas.19";
+    $pass = "mdp";
     
     if (isset($_POST['q1'])) {
         $sexe = $_POST['q1'];
